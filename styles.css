@@ -1,0 +1,81 @@
+:root {
+    --primary-bg-color: #111111; /* Dark background color */
+    --font-color: #ffffff; /* Assuming you want a font color */
+    --secondary-bg-color: #bbbbbb; /* Example secondary background color */
+}
+
+body {
+    font-family: 'inter', system-ui, Roboto, sans-serif;
+    background-color: var(--primary-bg-color);
+    margin: 0%;
+    color: var(--font-color);
+    padding: 0vh;
+}
+
+#description {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: var(--font-color);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+}
+
+#title {
+    margin-top: 5vh;
+    font-size: 3rem;
+}
+
+.main-column a[href*="linkedin.com"] {
+    color: green; /* Changes the LinkedIn link color to green */
+    text-decoration: underline; /* Example: adds underline */
+}
+
+#name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--font-color);
+    letter-spacing: 0.1rem;
+    margin-bottom: 5vh;
+
+}
+
+.main-column {
+    display:block;
+    background-color: var(--primary-bg-color);
+    padding-top: 10vh;
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto; 
+    justify-content: center;
+}
+.top-bar {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-bg-color);
+    width: 100%;
+    height: 1rem;
+}
+
+e {
+    margin-top: 5vh;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: var(--font-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+a:hover {
+    
+    transform: scale(1.1);
+    
+}
+
+
+
+
