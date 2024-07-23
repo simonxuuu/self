@@ -26,8 +26,8 @@ body {
 }
 
 .main-column a[href*="linkedin.com"] {
-    color: green; /* Changes the LinkedIn link color to green */
-    text-decoration: underline; /* Example: adds underline */
+    color: green; 
+    text-decoration: underline; 
 }
 
 #name {
